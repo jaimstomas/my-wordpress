@@ -1,12 +1,12 @@
 <div class="">
   <div class="">
     <div class="">
-      <h1>Latest News</h1>
+      <h1>FAQ</h1>
     </div>
     <?php
     $paged = max(1, get_query_var('paged'), get_query_var('page'));
     $args = array(
-      'post_type' => 'news',
+      'post_type' => 'faqs',
       'posts_per_page' => 3,
       'post_status' => 'publish',
       'paged' => $paged,

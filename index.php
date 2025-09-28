@@ -1,4 +1,4 @@
-
+<?php echo get_header();?>
     <section class="featured-news">
         <div class="container">
             <div class="featured">
@@ -62,3 +62,4 @@
 
         </div>
     </section>
+<?php echo get_footer();?>
